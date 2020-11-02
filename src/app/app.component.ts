@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TypographyComponent} from './typography/typography.component';
 
 @Component({
   selector: 'app-root',
