@@ -11,13 +11,16 @@ import { MaterialModule } from './material/material.module';
 // Add and Register Material related Component
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
-
+import { IconsComponent } from './icons/icons.component';
+import { BadgeComponent } from './badge/badge.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TypographyComponent,
-    ButtonComponent
+    ButtonComponent,
+    IconsComponent,
+    BadgeComponent
   ],
   imports: [
     BrowserModule,
